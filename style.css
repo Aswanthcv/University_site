@@ -275,8 +275,8 @@ html{
 }
 /* .testimonial-box:hover{
     transform: scale(1.02);
-} */
-.fa-solid{
+} */    
+.fa-star, .fa-star-half-stroke{
     color: var(--secondary);
 }
 .contact{
@@ -495,7 +495,7 @@ footer a{
   align-items: center;
   gap: 60px;
   width: max-content;
-  animation: marquee 25s linear infinite;
+  animation: marquee 20s linear infinite;
 }
 
 .marquee-track i {
@@ -516,7 +516,7 @@ footer a{
 }
 
 .company-marquee:hover .marquee-track {
-  animation-play-state: paused;
+  animation-play-state:paused;
 }
 
 /* ===== Placements ===== */
