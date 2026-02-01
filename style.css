@@ -563,6 +563,10 @@ footer a{
     }
     .map iframe {
     height: 280px;
-  }
+    }
+    .message .hide{
+        display: none;
+    }
+
     
 }
