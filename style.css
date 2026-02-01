@@ -1,12 +1,19 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
 }
 html{
     scroll-behavior: smooth;
 }
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+  background: #0F2A44; /* same tone as hero overlay */
+}
+
 :root {
     /* Primary palette */
     --primary: #0F2A44;        /* deep navy */
@@ -24,12 +31,14 @@ html{
 }
 
 .header {
+    width: 100%;
     min-height: 100vh;
     background-image:
         linear-gradient(var(--overlay), var(--overlay)),
         url(images/hero.jpg);
     background-position: center;
     background-size: cover;
+    position: relative;
 }
 
 .navbar {
@@ -475,6 +484,7 @@ footer a{
     background-color: rgb(255, 255, 255);
     border:none;
     padding: 10px;
+    border-radius: 5px;
     transition: 0.3s ease;
 }
 .contact-btn:hover{
@@ -532,18 +542,38 @@ footer a{
     color: var(--primary);
     font-weight: 600;
 }
-    
+.message{
+    max-width: 90%;
+        width: 100%;
+    background-color: #ECF1F5;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(54, 54, 54, 0.363);
+    margin: auto;
+    margin-top: 20px;
+}   
+.message a{
+    text-decoration: none;
+    color: var(--primary);
+} 
 
 @media(max-width: 700px){
-    .text-box{
-        position: absolute;
-        top: 60%;
+    .text-box {
+        left: 0;
+        width: 100%;
+        max-width: 100%;
+        padding: 0 16px;
+        transform: translateY(-50%);
     }
     .text-box h1{
-        font-size: 32px;
+        font-size: 42px;
     }
     .text-box p{
         font-size: 14px;
+    }
+    .testimonials.container-fluid {
+        padding-left: 0;
+        padding-right: 0;
     }
     .navbar {
         background: transparent;
@@ -557,9 +587,10 @@ footer a{
     .navbar-collapse.show {
         background-color: steelblue;
         padding: 10px 0;
+        z-index: 100;
     }
     .campus-panel {
-        height: 380px;
+        height: 380px;  
     }
     .carousel-inner {
         height: 360px;

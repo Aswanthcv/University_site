@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EduShpere</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EduShpere</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
 <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <link rel="icon" type="image/png" href="images/logo.png">
 </head>
 <body>
     
-    <section class="header">
+    <section class="header" id="header">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid px-3">
                 
-                <a class="navbar-brand" href="main.html">
+                <a class="navbar-brand" href="index.html">
                 <img src="images/edusphere2.png" alt="Logo" class="logo">
                 </a>
 
@@ -31,7 +30,7 @@
 
                 <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#header">HOME</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
                     <li class="nav-item"><a class="nav-link" href="courses.html">COURSES</a></li>
                     <li class="nav-item"><a class="nav-link" href="blog.html">BLOG</a></li>
@@ -168,114 +167,126 @@
 </section>
 
 <!-- testimonials -->
- <section class="testimonials container-fluid pt-5">
+<section class="testimonials pt-5">
+  <div class="container">
+
     <h1 class="text-center mb-3">What Our Students Says</h1>
-    <p class="text-center mb-5">Integrated facilities for academics, fitness, and campus living.</p>
-  <div class="row g-4 testimonial-items justify-content-center">
+    <p class="text-center mb-5">
+      Integrated facilities for academics, fitness, and campus living.
+    </p>
 
-    <div class="col-md-5">
-      <div class="testimonial-box d-flex align-items-center p-3">
-        <img src="images/arun.png" alt="User 1" class="testimonial-img">
-        <div class="ms-3">
-          <h4 class="mb-1">Arun Nath</h4>
-          <p class="mb-0">
-            EduSphere provided me with an excellent learning environment. The faculty support, modern facilities, and structured 
-            curriculum helped me grow academically and personally.
-          </p>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-        </div>
-      </div>
-    </div>
+    <div class="row g-4 justify-content-center testimonial-items">
 
-    <div class="col-md-5">
-      <div class="testimonial-box d-flex align-items-center p-3">
-        <img src="images/anamika.png" alt="User 2" class="testimonial-img">
-        <div class="ms-3">
-          <h4 class="mb-1">Anamika P</h4>
-          <p class="mb-0">
-            Studying at EduSphere was a transformative experience. The practical approach to learning and career guidance gave me 
-            confidence to succeed in my professional journey.
-          </p>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star-half-stroke"></i>
+      <div class="col-12 col-md-5">
+        <div class="testimonial-box d-flex align-items-center p-3">
+          <img src="images/arun.png" alt="User 1" class="testimonial-img">
+          <div class="ms-3">
+            <h4 class="mb-1">Arun Nath</h4>
+            <p class="mb-0">
+              EduSphere provided me with an excellent learning environment. The faculty support,
+              modern facilities, and structured curriculum helped me grow academically and personally.
+            </p>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col-md-5">
-      <div class="testimonial-box d-flex align-items-center p-3">
-        <img src="images/rahul.png" alt="User 1" class="testimonial-img">
-        <div class="ms-3">
-          <h4 class="mb-1">Rahul</h4>
-          <p class="mb-0">
-            Studying at EduSphere was a transformative experience. The practical approach to learning and career guidance gave me confidence to succeed in my professional journey.
-          </p>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-        </div>
-      </div>
-    </div>
 
-    <div class="col-md-5">
-      <div class="testimonial-box d-flex align-items-center p-3">
-        <img src="images/fathima.png" alt="User 2" class="testimonial-img">
-        <div class="ms-3">
-          <h4 class="mb-1">Fathima</h4>
-          <p class="mb-0">
-            The campus facilities and learning resources at EduSphere are excellent. What stood out most was the supportive faculty and focus on practical learning.
-          </p>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-regular fa-star"></i>
+      <div class="col-12 col-md-5">
+        <div class="testimonial-box d-flex align-items-center p-3">
+          <img src="images/anamika.png" alt="User 2" class="testimonial-img">
+          <div class="ms-3">
+            <h4 class="mb-1">Anamika P</h4>
+            <p class="mb-0">
+              Studying at EduSphere was a transformative experience. The practical approach
+              to learning and career guidance gave me confidence to succeed.
+            </p>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col-md-5">
-      <div class="testimonial-box d-flex align-items-center p-3">
-        <img src="images/ahammed.png" alt="User 1" class="testimonial-img">
-        <div class="ms-3">
-          <h4 class="mb-1">Ahammed</h4>
-          <p class="mb-0">
-            EduSphere helped me gain clarity in my academic goals. The exposure to real-world applications and research-based learning made a significant difference in my growth.
-          </p><i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-        </div>
-      </div>
-    </div>
 
-    <div class="col-md-5">
-      <div class="testimonial-box d-flex align-items-center p-3">
-        <img src="images/smitha.png" alt="User 2" class="testimonial-img">
-        <div class="ms-3">
-          <h4 class="mb-1">Smitha </h4>
-          <p class="mb-0">
-            The learning atmosphere at EduSphere is professional and motivating. From classrooms to career support, everything is designed to help students succeed.
-          </p>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-regular fa-star"></i>
+      <div class="col-12 col-md-5">
+        <div class="testimonial-box d-flex align-items-center p-3">
+          <img src="images/rahul.png" alt="User 3" class="testimonial-img">
+          <div class="ms-3">
+            <h4 class="mb-1">Rahul</h4>
+            <p class="mb-0">
+              The practical learning environment and strong career support helped
+              me succeed in my professional journey.
+            </p>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
         </div>
       </div>
+
+      <div class="col-12 col-md-5">
+        <div class="testimonial-box d-flex align-items-center p-3">
+          <img src="images/fathima.png" alt="User 4" class="testimonial-img">
+          <div class="ms-3">
+            <h4 class="mb-1">Fathima</h4>
+            <p class="mb-0">
+              The campus facilities and faculty support make EduSphere a great place to learn.
+            </p>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-5">
+        <div class="testimonial-box d-flex align-items-center p-3">
+          <img src="images/ahammed.png" alt="User 5" class="testimonial-img">
+          <div class="ms-3">
+            <h4 class="mb-1">Ahammed</h4>
+            <p class="mb-0">
+              Exposure to real-world applications and research-based learning
+              made a huge difference in my growth.
+            </p>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-5">
+        <div class="testimonial-box d-flex align-items-center p-3">
+          <img src="images/smitha.png" alt="User 6" class="testimonial-img">
+          <div class="ms-3">
+            <h4 class="mb-1">Smitha</h4>
+            <p class="mb-0">
+              Everything from classrooms to career support is designed to help students succeed.
+            </p>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
-  
 </section>
+
 
 <!-- contact -->
 <section class="contact py-5">
@@ -283,7 +294,7 @@
     <img src="images/contact.jpg" alt="Campus">
     <div class="contact-overlay">
       <h1>To Secure Your Future, Join us</h1>
-      <a href="contact.html" class="visit-btn">Contact Us</a>
+      <a href="contact.html#contact-section" class="visit-btn">Contact Us</a>
     </div>
   </div>
 </section>
@@ -340,15 +351,15 @@
 
 
 <footer class="footer">
-<h5 class="text-center pt-4">Connect with us</h5>
-<div class="connect d-flex justify-content-center gap-4">
-<a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
-<a href="https://www.instagram.com/accounts/login/?hl=en"><i class="fa-brands fa-instagram"></i></a>
-<a href="https://www.linkedin.com/login"><i class="fa-brands fa-linkedin-in"></i></a>
-<a href="https://x.com/"><i class="fa-brands fa-twitter"></i></a>
-</div>
-<p class="text-center">© 2026 edusphere. All rights reserved.</p>
-<p class="text-center dev">Developed by Aswanth cv</p>
+  <h5 class="text-center pt-4">Connect with us</h5>
+  <div class="connect d-flex justify-content-center gap-4 pb-3">
+      <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/accounts/login/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/login"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="https://x.com/"><i class="fa-brands fa-twitter"></i></a>
+  </div>
+  <p class="text-center">© 2026 edusphere. All rights reserved.</p>
+  <p class="text-center dev"><i class="fa-solid fa-code"></i> Developed by <a href="https://github.com/Aswanthcv">Aswanth C V</a></p>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
