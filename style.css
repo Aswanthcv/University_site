@@ -35,13 +35,14 @@ html, body {
 }
 
 .navbar {
-    background:transparent;
+    background-color:#03142497 ;
     position: relative;
-    height: 90px;
+    min-height: 80px;
 }
 
 .logo {
-    width: 120px;
+    width: 72px;   /* ideal */
+    height: auto;
 }
         /* navbar */
 .navbar .nav-link {
@@ -344,7 +345,8 @@ footer a{
 }
 /* Courses Page styles */
 .course-header{
-    height: 40vh;
+    padding-top: 180px;
+    height: 50vh;
     width: 100%;
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.619),rgba(0, 0, 0, 0.562)),
@@ -375,7 +377,8 @@ footer a{
 }
 /* contact */
 .contact-header{
-    height: 40vh;
+    padding-top: 180px;
+    height: 50vh;
     width: 100%;
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.619),rgba(0, 0, 0, 0.562)),
@@ -543,17 +546,24 @@ footer a{
         padding-right: 0;
     }
     .navbar {
-        background: transparent;
+        min-height: 60px;
+        padding: 4px 0;
     }
     .navbar .nav-link {
         color: #fff;
         text-align: right;
-        padding: 10px 20px;
+        padding: 10px 10px;
     }
     .navbar-collapse.show {
-        background-color: var(--secondary);
-        padding: 10px 0;
+        padding: 0px 10px;
         z-index: 100;
+    }
+    .navbar .logo {
+        height: 42px;
+        width: auto;
+    }
+    .navbar {
+        min-height: 64px ;
     }
     .campus-panel {
         height: 380px;  
